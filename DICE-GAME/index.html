@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>DICEGAME</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+
+<link rel="icon" href="images/projico.png">
+<style>
+body{
+	font-family: 'Kiwi Maru', serif;
+	background-color:#98ddca;
+	text-align:center;
+}
+h1{
+	text-align:center;
+	color:black;
+}
+hr{
+	width:30%;
+	border-style:none;
+	border-top-style:dotted;
+	background-color:#98ddca;
+	border-top-width:5px;
+	border-top-color:black;;
+	
+}
+div{
+	text-align:center;
+	padding:0px;
+	border-color:#864000;
+	
+}
+.kingdom{
+      margin-top:30px;
+	  color:black;
+}
+.tell:hover{
+	color:#864000;
+}
+.hello{
+	padding:0px 0px;
+}
+
+
+
+	</style>
+
+
+</head>
+<body><br>
+<h1 class="tell"><b><big>Refresh Me!!<big></b></h1>
+<hr class="tell">
+<div class="row">
+<div class="col-md-6">
+
+<p><span class="tell">PLAYER 1</span><p>
+<img src="images/dice6.png" alt="image can't be displayed" class="firstimg">
+</div>
+<div class="col-md-6 hello">
+
+<p><span class="tell">PLAYER 2</span></p>
+<img src="images/dice6.png" alt="image can't be displayed" class="secondimg">
+</div>
+</div>
+<p class="kingdom">
+	<big><span class="tell"><big><b>✌ REFRESH TO PLAY AGAIN ✌</b></big><br><br>
+		   😀 keep Smiling 😀</span> </big></p>
+
+
+<script>
+
+
+
+
+
+
+
+
+
+
+var a=Math.floor(Math.random()*6)+1;
+var b=Math.floor(Math.random()*6)+1;
+
+
+var intal="images/dice"+a+".png";
+for(var i=1;i<=6;i++)
+{
+	if(a==i)
+	{    
+	      
+	     
+		document.querySelector(".firstimg").setAttribute("src",intal);
+		break;
+	}
+}
+for(var m=1;m<=6;m++)
+{
+	if(b==m)
+	{  
+	
+		var final="images/dice"+b+".png";
+		
+		document.querySelectorAll("img")[1].setAttribute("src",final);
+		break;
+	}
+}
+	if(a>b)
+	{
+			document.querySelector("h1").innerHTML="(☞ﾟヮﾟ)☞ player 1 wins";
+	}
+	if(a===b)
+	{
+		document.querySelector("h1").innerHTML="(☞ﾟヮﾟ)☞ draw ☜(ﾟヮﾟ☜)";
+	}
+	if(a<b)
+	{
+		document.querySelector("h1").innerHTML="player 2 wins ☜(ﾟヮﾟ☜)";
+	}
+	</script>
+	
+
+</body>
+</html>
