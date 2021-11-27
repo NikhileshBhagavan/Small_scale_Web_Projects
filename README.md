@@ -1,6 +1,10 @@
 # Small_scale_Web_Projects
 
-Projects made by me  using html,css while learning.
+Projects made by me  using html,css,javascript while learning.
+
+![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
+![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
 
 # DICE GAME
 > https://nikhileshbhagavan.github.io/CV/DICEGAME.html
@@ -10,6 +14,3 @@ Projects made by me  using html,css while learning.
 >https://nikhileshbhagavan.github.io/CV/social%20media.html
 
 
-![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
-![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
